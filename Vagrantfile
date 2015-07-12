@@ -23,7 +23,7 @@ Vagrant.configure(2) do |config|
 
       node.vm.provision "itamae" do |config|
         config.sudo
-        config.recipes = ["recipe.rb", "recipe_#{node_name}"]
+        config.recipes = ["recipe.rb", "recipe_#{node_name}.rb"]
       end
     end
   end
