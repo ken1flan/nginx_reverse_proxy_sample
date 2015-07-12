@@ -27,14 +27,13 @@ $ sudo echo "web2 192.168.33.11" >> /etc/hosts
 
 ### web application
 
-/
-/web1
-/web1/content
+* /
+* /web1
+* /web1/content
 
 ## web2
 
 ### web application
 
-/
-/web2
-/web2/content
+* /web2
+* /web2/content
